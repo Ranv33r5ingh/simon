@@ -11,7 +11,7 @@ $(document).keypress(function() {
     started = true;
   }
 });
-$(".btn").click(function() {
+$("button.btn").click(function() {
   var ucc = $(this).attr("id");
   ucp.push(ucc);
   playSound(ucc);
